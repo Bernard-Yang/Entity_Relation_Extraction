@@ -10,3 +10,7 @@
 # How to run
 - Download Glove word embedding from https://nlp.stanford.edu/projects/glove/
 - python train.py pretrained
+
+# Reference
+
+[Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification](url)
