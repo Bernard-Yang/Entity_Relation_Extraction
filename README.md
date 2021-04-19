@@ -13,4 +13,4 @@
 
 # Reference
 
-[Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification](url)
+[Attention-Based Bidirectional Long Short-Term Memory Networks for Relation Classification](https://www.aclweb.org/anthology/P16-2034.pdf)
