@@ -3,12 +3,12 @@
 - Using Bidirectional LSTM neural network and Attention mechanism to predict the class of relation for each entity pair.
 
 # Result
-|  Input   | Hidden Size  | Precison | Recall | F1 |
-| -------- | ------------ | -------- | ------ | -- |
-| 100d word embedding  | 50  | 58% | 59% | 58% |
-| 100d word and entities position embedding | 50 | 66% | 68% | 67% |
-| 100d word and entities position embedding | 150 | 70% | 71% | 70% |
-| 100d word and entities position embedding | 300 | 71% | 69% | 70% |
+|  Input   | Hidden Size  | Training Precison |Training Recall |Training F1 | Validation Precison| Validation Recall| Validation F1|
+| -------- | ------------ | ----------------- | -------------- | ---------- |------------------- |----------------- |------------- |
+| 100d word embedding  | 50 | 95% | 97% | 96% | 58% | 59% | 58% |
+| 100d word and entities position embedding | 50 | 96% | 97% | 97%| 66% | 68% | 67% |
+| 100d word and entities position embedding | 150 | 96% | 97% | 96% | 70% | 71% | 70% |
+| 100d word and entities position embedding | 300 | 96% | 97% | 96% | 71% | 69% | 70% |
 
 # Environment 
 - python 3.6
