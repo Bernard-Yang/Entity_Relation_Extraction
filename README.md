@@ -1,8 +1,12 @@
 # Entity_Relation_Extraction
 - English Entity Relation Extraction on SemEval2010 task8 datasets.
 - Using Bidirectional LSTM neural network and Attention mechanism to predict the class of relation for each entity pair.
-- Achieved 54% Precision, 55% Recall, 54% F1 score with 100 dimension Glove word embedding as input. LSTM hidden size is 50.
-- Achieved 70% Precision, 71% Recall, 71% F1 score with 100 dimension Glove word embedding and entities position embedding as input. LSTM hidden size is 50.
+
+|  Input   | Hidden Size  | Precison | Recall | F1
+| 100d word embedding  | 50  | 58% | 59% | 58% |
+| 100d word and entities position embedding | 50 | 70% | 71% | 70% |
+| 100d word and entities position embedding | 150 | 70% | 71% | 70% |
+| 100d word and entities position embedding | 300 | 71% | 69% | 70% |
 
 # Environment 
 - python 3.6
