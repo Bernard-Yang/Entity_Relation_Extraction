@@ -6,7 +6,7 @@
 |  Input   | Hidden Size  | Precison | Recall | F1 |
 | -------- | ------------ | -------- | ------ | -- |
 | 100d word embedding  | 50  | 58% | 59% | 58% |
-| 100d word and entities position embedding | 50 | 70% | 71% | 70% |
+| 100d word and entities position embedding | 50 | 66% | 68% | 67% |
 | 100d word and entities position embedding | 150 | 70% | 71% | 70% |
 | 100d word and entities position embedding | 300 | 71% | 69% | 70% |
 
