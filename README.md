@@ -2,6 +2,7 @@
 - English Entity Relation Extraction on SemEval2010 task8 datasets.
 - Using Bidirectional LSTM neural network and Attention mechanism to predict the class of relation for each entity pair.
 
+# Result
 |  Input   | Hidden Size  | Precison | Recall | F1 |
 | -------- | ------------ | -------- | ------ | -- |
 | 100d word embedding  | 50  | 58% | 59% | 58% |
